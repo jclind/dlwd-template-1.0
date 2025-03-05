@@ -9,8 +9,8 @@ export const links = [
   },
 
   {
-    title: 'Web Design',
-    path: '/web-design',
+    title: 'Services',
+    path: '/services',
   },
   {
     title: 'Pricing',

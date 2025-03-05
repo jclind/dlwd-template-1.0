@@ -12,7 +12,7 @@ const Hero = () => {
             consectetur adipisicing elit. Illo, commodi.
           </p>
           <div className={styles.buttons}>
-            <ButtonLink text='Get Started' link='/contact' color='tertiary' />
+            <ButtonLink text='Get Started' link='/contact' color='primary' />
             <ButtonLink text='About Us' link='/about' color='secondary' />
           </div>
         </div>

@@ -3,6 +3,8 @@ import styles from './Footer.module.scss'
 import { links } from './links'
 import Divider from '../../Common/Divider'
 import { contactInfo } from './contactInfo'
+import { LEGAL_NAME } from '../../../assets/data/legalInfo'
+
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -44,9 +46,11 @@ const Footer = () => {
         </div>
         <Divider space='large' />
         <div className={styles.copyright}>
-          <div
-            className={styles.text}
-          >{`© Copyright ${new Date().getFullYear()} Deer Lakes Web Design `}</div>
+          <div className={styles.text}>
+            {`© Copyright ${new Date().getFullYear()} ${LEGAL_NAME}`} | Website
+            By{' '}
+            <a href='https://deerlakeswebdesigns.com/'>Deer Lakes Web Design</a>
+          </div>
           <div className={styles.legal}>
             <a href='/terms-of-service'>Terms</a>
             <span>|</span>

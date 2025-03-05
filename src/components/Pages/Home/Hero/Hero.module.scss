@@ -6,9 +6,9 @@
     flex-direction: column;
     gap: $gap-large;
     .buttons {
-      margin: 0 auto;
       display: flex;
       gap: $gap-large;
+      margin: 0 auto;
     }
   }
 }
