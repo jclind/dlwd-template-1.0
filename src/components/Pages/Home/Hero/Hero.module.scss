@@ -1,0 +1,14 @@
+@use '../../../../styles/vars' as *;
+
+.hero {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-large;
+    .buttons {
+      margin: 0 auto;
+      display: flex;
+      gap: $gap-large;
+    }
+  }
+}
