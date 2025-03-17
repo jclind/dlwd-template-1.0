@@ -8,4 +8,5 @@ export const COUNTRY = 'United States'
 export const FULL_ADDRESS = `${ADDRESS}, ${CITY}, ${STATE} ${ZIP_CODE}, ${COUNTRY}`
 
 export const LEGAL_NAME = 'Placeholder Company Name'
+export const WEBSITE_DESCRIPTION = ''
 export const WEBSITE_URL = 'https://placeholder.com'
